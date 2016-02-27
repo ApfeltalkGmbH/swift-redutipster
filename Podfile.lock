@@ -1,0 +1,25 @@
+PODS:
+  - GRMustache.swift (0.11.0)
+  - Kanna (1.0.3)
+  - SwiftyJSON (2.3.2)
+
+DEPENDENCIES:
+  - GRMustache.swift
+  - Kanna (~> 1.0.0)
+  - SwiftyJSON (from `https://github.com/SwiftyJSON/SwiftyJSON.git`)
+
+EXTERNAL SOURCES:
+  SwiftyJSON:
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
+
+CHECKOUT OPTIONS:
+  SwiftyJSON:
+    :commit: 42bdb102d2624b143c07850ebdc1537d5b6579b6
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
+
+SPEC CHECKSUMS:
+  GRMustache.swift: 9d0eb125308a6a935169b5734a7ec460f561495e
+  Kanna: 10c7f20762846e808ec5716e4191427bd71bf1c2
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+
+COCOAPODS: 0.39.0

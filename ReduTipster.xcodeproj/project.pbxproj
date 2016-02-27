@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94F928060019566A1760211E /* Pods_ReduTipster.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08726129151287AAE8FB355E /* Pods_ReduTipster.framework */; };
+		F61ACC071C5382A3000D422B /* ParserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61ACC061C5382A3000D422B /* ParserViewController.swift */; };
+		F61ACC0A1C5382AA000D422B /* RTApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61ACC081C5382AA000D422B /* RTApp.swift */; };
+		F61ACC0B1C5382AA000D422B /* RTPlattform.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61ACC091C5382AA000D422B /* RTPlattform.swift */; };
+		F61ACC0E1C53AE2B000D422B /* NSColor+FromHex.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61ACC0D1C53AE2B000D422B /* NSColor+FromHex.swift */; };
+		F61B09281C5CE8570030F33E /* Array+randomItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61B09271C5CE8570030F33E /* Array+randomItem.swift */; };
+		F61B092A1C5CE8E70030F33E /* article-header.mustache in Resources */ = {isa = PBXBuildFile; fileRef = F61B09291C5CE8E70030F33E /* article-header.mustache */; };
+		F61B092C1C5CEF310030F33E /* app-box-list-item.mustache in Resources */ = {isa = PBXBuildFile; fileRef = F61B092B1C5CEF310030F33E /* app-box-list-item.mustache */; };
+		F64E60E21C53E11C00BE5CDD /* app-box-list-item-advanced.mustache in Resources */ = {isa = PBXBuildFile; fileRef = F64E60E11C53E11C00BE5CDD /* app-box-list-item-advanced.mustache */; };
+		F67513CE1C5E069300005DFD /* app-list-item.mustache in Resources */ = {isa = PBXBuildFile; fileRef = F67513CD1C5E069300005DFD /* app-list-item.mustache */; };
+		F6AAC89D1C53821300FF205A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AAC89C1C53821300FF205A /* AppDelegate.swift */; };
+		F6AAC8A11C53821400FF205A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6AAC8A01C53821400FF205A /* Assets.xcassets */; };
+		F6AAC8A41C53821400FF205A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6AAC8A21C53821400FF205A /* Main.storyboard */; };
+		F6AB07211C5544C20098A91D /* article-header-advanced.mustache in Resources */ = {isa = PBXBuildFile; fileRef = F6AB07201C5544C20098A91D /* article-header-advanced.mustache */; };
+		F6AB07231C5544D30098A91D /* article-footer.mustache in Resources */ = {isa = PBXBuildFile; fileRef = F6AB07221C5544D30098A91D /* article-footer.mustache */; };
+		F6BE7EAB1C53B16100950650 /* article-container.mustache in Resources */ = {isa = PBXBuildFile; fileRef = F6BE7EAA1C53B16100950650 /* article-container.mustache */; };
+		F6BE7EAD1C53B28D00950650 /* app-list-item-advanced.mustache in Resources */ = {isa = PBXBuildFile; fileRef = F6BE7EAC1C53B28D00950650 /* app-list-item-advanced.mustache */; };
+		F6BE7EAF1C53B84300950650 /* GeneratedContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BE7EAE1C53B84300950650 /* GeneratedContentViewController.swift */; };
+		F6F184D61C5CB77F00746500 /* ITunesParserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F184D51C5CB77F00746500 /* ITunesParserViewController.swift */; };
+		F6F6B3321C5CC426005AAECE /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F6B3311C5CC426005AAECE /* TableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		08726129151287AAE8FB355E /* Pods_ReduTipster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReduTipster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D99237A5D839DCD958881AA /* Pods-ReduTipster.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReduTipster.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReduTipster/Pods-ReduTipster.release.xcconfig"; sourceTree = "<group>"; };
+		A15A253697F41EC831F65AEB /* Pods-ReduTipster.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReduTipster.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReduTipster/Pods-ReduTipster.debug.xcconfig"; sourceTree = "<group>"; };
+		F61ACC061C5382A3000D422B /* ParserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ParserViewController.swift; path = ViewControllers/ParserViewController.swift; sourceTree = "<group>"; };
+		F61ACC081C5382AA000D422B /* RTApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RTApp.swift; path = Models/RTApp.swift; sourceTree = "<group>"; };
+		F61ACC091C5382AA000D422B /* RTPlattform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RTPlattform.swift; path = Models/RTPlattform.swift; sourceTree = "<group>"; };
+		F61ACC0D1C53AE2B000D422B /* NSColor+FromHex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSColor+FromHex.swift"; sourceTree = "<group>"; };
+		F61B09271C5CE8570030F33E /* Array+randomItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Array+randomItem.swift"; path = "Extensions/Array+randomItem.swift"; sourceTree = "<group>"; };
+		F61B09291C5CE8E70030F33E /* article-header.mustache */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "article-header.mustache"; path = "Resources/Templates/article-header.mustache"; sourceTree = "<group>"; };
+		F61B092B1C5CEF310030F33E /* app-box-list-item.mustache */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "app-box-list-item.mustache"; path = "Resources/Templates/app-box-list-item.mustache"; sourceTree = "<group>"; };
+		F64E60E11C53E11C00BE5CDD /* app-box-list-item-advanced.mustache */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "app-box-list-item-advanced.mustache"; sourceTree = "<group>"; };
+		F67513CD1C5E069300005DFD /* app-list-item.mustache */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "app-list-item.mustache"; path = "Resources/Templates/app-list-item.mustache"; sourceTree = "<group>"; };
+		F6AAC8991C53821300FF205A /* ReduTipster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReduTipster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6AAC89C1C53821300FF205A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F6AAC8A01C53821400FF205A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6AAC8A31C53821400FF205A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F6AAC8A51C53821400FF205A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6AB07201C5544C20098A91D /* article-header-advanced.mustache */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "article-header-advanced.mustache"; path = "Resources/Templates/article-header-advanced.mustache"; sourceTree = "<group>"; };
+		F6AB07221C5544D30098A91D /* article-footer.mustache */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "article-footer.mustache"; path = "Resources/Templates/article-footer.mustache"; sourceTree = "<group>"; };
+		F6BE7EAA1C53B16100950650 /* article-container.mustache */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "article-container.mustache"; path = "Resources/Templates/article-container.mustache"; sourceTree = "<group>"; };
+		F6BE7EAC1C53B28D00950650 /* app-list-item-advanced.mustache */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "app-list-item-advanced.mustache"; path = "Resources/Templates/app-list-item-advanced.mustache"; sourceTree = "<group>"; };
+		F6BE7EAE1C53B84300950650 /* GeneratedContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GeneratedContentViewController.swift; path = ViewControllers/GeneratedContentViewController.swift; sourceTree = "<group>"; };
+		F6F184D51C5CB77F00746500 /* ITunesParserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ITunesParserViewController.swift; sourceTree = "<group>"; };
+		F6F6B3311C5CC426005AAECE /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewController.swift; path = ViewControllers/TableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6AAC8961C53821300FF205A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94F928060019566A1760211E /* Pods_ReduTipster.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6CB9D5E25AA0DBF4B784451E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08726129151287AAE8FB355E /* Pods_ReduTipster.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1FB142A3E2AB180C5CF7F2C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A15A253697F41EC831F65AEB /* Pods-ReduTipster.debug.xcconfig */,
+				5D99237A5D839DCD958881AA /* Pods-ReduTipster.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F61ACC041C53827A000D422B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F61ACC081C5382AA000D422B /* RTApp.swift */,
+				F61ACC091C5382AA000D422B /* RTPlattform.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		F61ACC051C538283000D422B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F61ACC061C5382A3000D422B /* ParserViewController.swift */,
+				F6BE7EAE1C53B84300950650 /* GeneratedContentViewController.swift */,
+				F6F184D51C5CB77F00746500 /* ITunesParserViewController.swift */,
+				F6F6B3311C5CC426005AAECE /* TableViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F61ACC0C1C53AE0C000D422B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F61ACC0D1C53AE2B000D422B /* NSColor+FromHex.swift */,
+				F61B09271C5CE8570030F33E /* Array+randomItem.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		F6AAC8901C53821300FF205A = {
+			isa = PBXGroup;
+			children = (
+				F6AAC89B1C53821300FF205A /* ReduTipster */,
+				F6AAC89A1C53821300FF205A /* Products */,
+				C1FB142A3E2AB180C5CF7F2C /* Pods */,
+				6CB9D5E25AA0DBF4B784451E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F6AAC89A1C53821300FF205A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6AAC8991C53821300FF205A /* ReduTipster.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6AAC89B1C53821300FF205A /* ReduTipster */ = {
+			isa = PBXGroup;
+			children = (
+				F6BE7EA81C53B10900950650 /* Resources */,
+				F61ACC0C1C53AE0C000D422B /* Extensions */,
+				F61ACC051C538283000D422B /* ViewControllers */,
+				F61ACC041C53827A000D422B /* Models */,
+				F6AAC89C1C53821300FF205A /* AppDelegate.swift */,
+				F6AAC8A01C53821400FF205A /* Assets.xcassets */,
+				F6AAC8A21C53821400FF205A /* Main.storyboard */,
+				F6AAC8A51C53821400FF205A /* Info.plist */,
+			);
+			path = ReduTipster;
+			sourceTree = "<group>";
+		};
+		F6BE7EA81C53B10900950650 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F6BE7EA91C53B11300950650 /* Templates */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F6BE7EA91C53B11300950650 /* Templates */ = {
+			isa = PBXGroup;
+			children = (
+				F6BE7EAA1C53B16100950650 /* article-container.mustache */,
+				F6BE7EAC1C53B28D00950650 /* app-list-item-advanced.mustache */,
+				F64E60E11C53E11C00BE5CDD /* app-box-list-item-advanced.mustache */,
+				F6AB07201C5544C20098A91D /* article-header-advanced.mustache */,
+				F6AB07221C5544D30098A91D /* article-footer.mustache */,
+				F61B09291C5CE8E70030F33E /* article-header.mustache */,
+				F61B092B1C5CEF310030F33E /* app-box-list-item.mustache */,
+				F67513CD1C5E069300005DFD /* app-list-item.mustache */,
+			);
+			name = Templates;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6AAC8981C53821300FF205A /* ReduTipster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6AAC8A81C53821400FF205A /* Build configuration list for PBXNativeTarget "ReduTipster" */;
+			buildPhases = (
+				191158052D2D0534F1A25ECB /* Check Pods Manifest.lock */,
+				F6AAC8951C53821300FF205A /* Sources */,
+				F6AAC8961C53821300FF205A /* Frameworks */,
+				F6AAC8971C53821300FF205A /* Resources */,
+				CC009E575C1FDDED00D50CAC /* Embed Pods Frameworks */,
+				08FD099931A842070921E72A /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReduTipster;
+			productName = ReduTipster;
+			productReference = F6AAC8991C53821300FF205A /* ReduTipster.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6AAC8911C53821300FF205A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Tobias Scholze";
+				TargetAttributes = {
+					F6AAC8981C53821300FF205A = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = F6AAC8941C53821300FF205A /* Build configuration list for PBXProject "ReduTipster" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6AAC8901C53821300FF205A;
+			productRefGroup = F6AAC89A1C53821300FF205A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6AAC8981C53821300FF205A /* ReduTipster */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6AAC8971C53821300FF205A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F67513CE1C5E069300005DFD /* app-list-item.mustache in Resources */,
+				F61B092A1C5CE8E70030F33E /* article-header.mustache in Resources */,
+				F6BE7EAB1C53B16100950650 /* article-container.mustache in Resources */,
+				F6BE7EAD1C53B28D00950650 /* app-list-item-advanced.mustache in Resources */,
+				F6AB07231C5544D30098A91D /* article-footer.mustache in Resources */,
+				F6AAC8A11C53821400FF205A /* Assets.xcassets in Resources */,
+				F61B092C1C5CEF310030F33E /* app-box-list-item.mustache in Resources */,
+				F6AB07211C5544C20098A91D /* article-header-advanced.mustache in Resources */,
+				F6AAC8A41C53821400FF205A /* Main.storyboard in Resources */,
+				F64E60E21C53E11C00BE5CDD /* app-box-list-item-advanced.mustache in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08FD099931A842070921E72A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReduTipster/Pods-ReduTipster-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		191158052D2D0534F1A25ECB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CC009E575C1FDDED00D50CAC /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReduTipster/Pods-ReduTipster-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6AAC8951C53821300FF205A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F61ACC071C5382A3000D422B /* ParserViewController.swift in Sources */,
+				F61ACC0A1C5382AA000D422B /* RTApp.swift in Sources */,
+				F61ACC0B1C5382AA000D422B /* RTPlattform.swift in Sources */,
+				F6F6B3321C5CC426005AAECE /* TableViewController.swift in Sources */,
+				F61B09281C5CE8570030F33E /* Array+randomItem.swift in Sources */,
+				F6F184D61C5CB77F00746500 /* ITunesParserViewController.swift in Sources */,
+				F61ACC0E1C53AE2B000D422B /* NSColor+FromHex.swift in Sources */,
+				F6BE7EAF1C53B84300950650 /* GeneratedContentViewController.swift in Sources */,
+				F6AAC89D1C53821300FF205A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F6AAC8A21C53821400FF205A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6AAC8A31C53821400FF205A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F6AAC8A61C53821400FF205A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F6AAC8A71C53821400FF205A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F6AAC8A91C53821400FF205A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A15A253697F41EC831F65AEB /* Pods-ReduTipster.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ReduTipster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.tscholze.ReduTipster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F6AAC8AA1C53821400FF205A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D99237A5D839DCD958881AA /* Pods-ReduTipster.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ReduTipster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.tscholze.ReduTipster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6AAC8941C53821300FF205A /* Build configuration list for PBXProject "ReduTipster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6AAC8A61C53821400FF205A /* Debug */,
+				F6AAC8A71C53821400FF205A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6AAC8A81C53821400FF205A /* Build configuration list for PBXNativeTarget "ReduTipster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6AAC8A91C53821400FF205A /* Debug */,
+				F6AAC8AA1C53821400FF205A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6AAC8911C53821300FF205A /* Project object */;
+}
