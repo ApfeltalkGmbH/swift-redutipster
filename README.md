@@ -23,7 +23,7 @@ It uses Mustache to render neat templates that are copy & paste able for blogs o
 1. Enjoy
 
 <div style="text-align:center">
-        <a href="https://raw.githubusercontent.com/tscholze/swift-redutipster/master/docs/docs/charts.png">
+        <a href="https://raw.githubusercontent.com/tscholze/swift-redutipster/master/docs/charts.png">
                 <img src="https://raw.githubusercontent.com/tscholze/swift-redutipster/master/docs/charts.png" height="300px" />
         </a>
 </div>
